@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+xgboost = "*"
+flask = "*"
+requests = "*"
+waitress = "*"
+
+[dev-packages]
+scikit-learn = "*"
+notebook = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[requires]
+python_version = "3.9"
